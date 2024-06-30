@@ -37,7 +37,3 @@ ad.update_json(admin_id, key1, key2, key3, value)
 # 清空项目json值，同上
 ad.clear_json(admin_id, key1, key2, key3)
 ```
-
-原config
-
-![image1](./image/image1.png)
