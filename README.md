@@ -23,7 +23,7 @@ ad.verify_admin(admin_id, admin_password)
 ad.is_admin(admin_id)
 
 # 修改管理员密码
-ad.change_password(admin_id, new_password)
+ad.update_password(admin_id, new_password)
 
 # 清空管理员名单
 ad.clear_admin(admin_id)
@@ -34,4 +34,10 @@ ad.append_json(admin_id, key1, key2, key3, value)
 # 修改项目json值，同上
 ad.update_json(admin_id, key1, key2, key3, value)
 
+# 清空项目json值，同上
+ad.clear_json(admin_id, key1, key2, key3)
 ```
+
+原config
+
+![image1](./image/image1.png)
